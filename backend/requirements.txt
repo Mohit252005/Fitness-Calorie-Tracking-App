@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+Flask-JWT-Extended
+Flask-SQLAlchemy
+numpy
+opencv-python-headless
+psycopg[binary]
+python-dotenv
+tensorflow-cpu
