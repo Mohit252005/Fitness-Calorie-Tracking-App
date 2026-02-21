@@ -1,0 +1,161 @@
+.app {
+  min-height: 100vh;
+  background: #0f1419;
+  color: #e6edf3;
+}
+
+.header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #30363d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background: #21262d;
+  border-radius: 6px;
+  color: #8b949e;
+}
+
+.main {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.intro {
+  color: #8b949e;
+  margin-bottom: 1.5rem;
+}
+
+.summary {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.summary h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #8b949e;
+}
+
+.summary p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.form-section h2,
+.estimate h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #8b949e;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #e6edf3;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.input::placeholder {
+  color: #6e7681;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #58a6ff;
+}
+
+.error {
+  color: #f85149;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: #238636;
+  color: #fff;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #2ea043;
+}
+
+.btn-secondary {
+  background: #21262d;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #30363d;
+}
+
+.estimate {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+}
+
+.macros {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.macros li {
+  padding: 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.stub-note {
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin-bottom: 1rem;
+}

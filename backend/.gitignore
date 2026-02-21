@@ -25,3 +25,9 @@ uploads/
 # Alembic / SQLite (if used for local dev)
 *.sqlite
 *.sqlite3
+
+# Frontend (React)
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/coverage/
